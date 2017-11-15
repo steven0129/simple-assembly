@@ -1,0 +1,21 @@
+Q1: 下載 https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads 的Linux-64 bits版本，下載完後執行以下指令
+
+$ tar -jxvf gcc-arm-none-eabi-6-2017-q2-update-linux.tar.bz2
+$ cp ./gcc-arm-none-eabi-6-2017-q2-update/ ~/gcc-arm-none-eabi/
+
+Q2: hw1.o是目標檔(Object File)，hw1.exe是可執行檔(Executable File)
+
+Q3: 下指令 ls hw1 -lah 可得到以下結果
+
+總計 104K
+drwxrwxr-x 2 h3584935 h3584935 4.0K 10月 16 23:49 .
+drwxrwxr-x 4 h3584935 h3584935 4.0K 10月 16 23:44 ..
+-rw-rw-r-- 1 h3584935 h3584935  350 10月 16 23:39 answer.txt
+-rwxrwxr-x 1 h3584935 h3584935  99K 10月 16 23:45 hw1.exe
+-rw-rw-r-- 1 h3584935 h3584935  920 10月 16 23:42 hw1.o
+-rw-rw-r-- 1 h3584935 h3584935  968 10月 16 23:48 sample_O0.o
+-rw-rw-r-- 1 h3584935 h3584935 1.1K 10月 16 23:46 sample_O0.s
+-rw-rw-r-- 1 h3584935 h3584935  952 10月 16 23:49 sample_O3.o
+-rw-rw-r-- 1 h3584935 h3584935  695 10月 16 23:48 sample_O3.s
+
+sample_O3.o比sample_O0.o之檔案還來的小
