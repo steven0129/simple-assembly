@@ -6,5 +6,5 @@ add_custom_target(
 )
 
 add_custom_target(
-    clear COMMAND rm *.exe
+    clear COMMAND rm -rf *.exe *.cmake CMakeCache.txt CMakeFiles
 )
